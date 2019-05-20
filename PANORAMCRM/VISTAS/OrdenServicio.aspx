@@ -7,7 +7,6 @@
         }
         
     </style>
-   
 <div class="container">
     
     <div class="col-md-12 cajas">
@@ -108,7 +107,7 @@
             </div>
 
 </div>
-     <div class="modal fade " data-backdrop="static" data-keyboard="false" id="AbrirModalNuevo" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
+     <div class="modal fade " id="AbrirModalNuevo" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
   aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content cuerpo" style="margin-top:-30px;">
@@ -349,5 +348,4 @@
     </div>
   </div>
 </div>
-    
 </asp:Content>
