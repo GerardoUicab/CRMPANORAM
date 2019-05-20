@@ -1891,6 +1891,8 @@
     <Content Include="RECURSOS\vendors\tinymce\tinymce.jquery.min.js" />
     <Content Include="RECURSOS\vendors\tinymce\tinymce.js" />
     <Content Include="RECURSOS\vendors\tinymce\tinymce.min.js" />
+    <Content Include="VISTAS\Login.aspx" />
+    <Content Include="VISTAS\OrdenServicio.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -1904,6 +1906,20 @@
       <DependentUpon>PaginaPrincipal.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VISTAS\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VISTAS\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\OrdenServicio.aspx.cs">
+      <DependentUpon>OrdenServicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VISTAS\OrdenServicio.aspx.designer.cs">
+      <DependentUpon>OrdenServicio.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="MasterPage\PaginaPrincipal.Master" />
@@ -2083,7 +2099,6 @@
   <ItemGroup>
     <Folder Include="CTRL\" />
     <Folder Include="REPORTES\" />
-    <Folder Include="VISTAS\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
