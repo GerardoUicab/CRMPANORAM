@@ -235,6 +235,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BO\UsuarioBO.cs" />
+    <Compile Include="DAO\UsuarioDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -298,9 +300,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BO\" />
     <Folder Include="CTRL\" />
-    <Folder Include="DAO\" />
     <Folder Include="REPORTES\" />
     <Folder Include="VISTAS\" />
   </ItemGroup>
