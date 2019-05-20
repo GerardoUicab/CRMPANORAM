@@ -1,0 +1,26 @@
+﻿body {
+}
+
+.transparenciadiv{
+    opacity: 0.6;
+
+
+}
+
+.textoos {
+    color: #000000;
+    float: left;
+    position: relative;
+    font-weight: bold;
+  
+}
+
+.myDiv {
+    position: relative;
+    z-index: 5;
+    height: 250px;
+    width: 300px;
+    color: #FFF;
+    font-size: 400%;
+    padding: 20px;
+}

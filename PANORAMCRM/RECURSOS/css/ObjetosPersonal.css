@@ -1,0 +1,86 @@
+﻿.cajas {
+    border: 1px;
+    border-color: #308ee0;
+    border-style: solid;
+    border-radius: 10px;
+    background: white;
+}
+
+.textos {
+    border: 1px;
+    border-color: #308ee0;
+    border-style: solid;
+    border-radius: 10px;
+    background: white;
+}
+
+    .textos:hover {
+        background: #E7E3E3;
+        color: white;
+    }
+
+.Buscar {
+    border: 1px;
+    border-color: #308ee0;
+    border-style: solid;
+    border-radius: 10px;
+    background: white;
+}
+
+    .Buscar:hover {
+        background: #308ee0;
+        color: white;
+    }
+
+.nuevo {
+    border: 1px;
+    border-color: #58D68D;
+    border-style: solid;
+    border-radius: 10px;
+    background: white;
+}
+
+    .nuevo:hover {
+        background: #58D68D;
+        color: white;
+    }
+
+.solcitar {
+    border: 1px;
+    border-color: #D35400;
+    border-style: solid;
+    border-radius: 10px;
+    background: white;
+}
+
+    .solcitar:hover {
+        background: #D35400;
+        color: white;
+    }
+.editar {
+    width:40px;
+    height:40px;
+    border: 1px;
+    border-color: #308ee0;
+    border-style: solid;
+    border-radius: 30px;
+    background: white;
+}
+    .editar:hover {
+        background: #308ee0;
+        color: white;
+    }
+.agregar {
+    width: 35px;
+    height: 35px;
+    border: 1px;
+    border-color: #308ee0;
+    border-style: solid;
+    border-radius: 30px;
+    background: white;
+    color: #308ee0;
+}
+    .agregar:hover {
+        background: #308ee0;
+        color: white;
+    }
