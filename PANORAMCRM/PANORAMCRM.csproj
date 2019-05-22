@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="RECURSOS\css\all.css" />
+    <Content Include="RECURSOS\css\bootstrap.min.css" />
     <Content Include="RECURSOS\css\EstiloNuevo.css" />
     <Content Include="RECURSOS\css\inicio.css" />
     <Content Include="RECURSOS\css\mistyle.css" />
@@ -1893,11 +1895,23 @@
     <Content Include="RECURSOS\vendors\tinymce\tinymce.min.js" />
     <Content Include="VISTAS\Login.aspx" />
     <Content Include="VISTAS\OrdenServicio.aspx" />
+    <Content Include="VISTAS\RecuperarContrasenia.aspx" />
+    <Content Include="VISTAS\ServiciosPendientes.aspx" />
+    <Content Include="VISTAS\ServiciosProcesos.aspx" />
+    <Content Include="VISTAS\ServiciosTerminados.aspx" />
+    <Content Include="VISTAS\ServiciosUrgentes.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BO\UsuarioBO.cs" />
     <Compile Include="DAO\UsuarioDAO.cs" />
+    <Compile Include="MasterPage\MasterTecnico.Master.cs">
+      <DependentUpon>MasterTecnico.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage\MasterTecnico.Master.designer.cs">
+      <DependentUpon>MasterTecnico.Master</DependentUpon>
+    </Compile>
     <Compile Include="MasterPage\PaginaPrincipal.Master.cs">
       <DependentUpon>PaginaPrincipal.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1920,9 +1934,45 @@
     <Compile Include="VISTAS\OrdenServicio.aspx.designer.cs">
       <DependentUpon>OrdenServicio.aspx</DependentUpon>
     </Compile>
+    <Compile Include="VISTAS\RecuperarContrasenia.aspx.cs">
+      <DependentUpon>RecuperarContrasenia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VISTAS\RecuperarContrasenia.aspx.designer.cs">
+      <DependentUpon>RecuperarContrasenia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\ServiciosPendientes.aspx.cs">
+      <DependentUpon>ServiciosPendientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VISTAS\ServiciosPendientes.aspx.designer.cs">
+      <DependentUpon>ServiciosPendientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\ServiciosProcesos.aspx.cs">
+      <DependentUpon>ServiciosProcesos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VISTAS\ServiciosProcesos.aspx.designer.cs">
+      <DependentUpon>ServiciosProcesos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\ServiciosTerminados.aspx.cs">
+      <DependentUpon>ServiciosTerminados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VISTAS\ServiciosTerminados.aspx.designer.cs">
+      <DependentUpon>ServiciosTerminados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\ServiciosUrgentes.aspx.cs">
+      <DependentUpon>ServiciosUrgentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VISTAS\ServiciosUrgentes.aspx.designer.cs">
+      <DependentUpon>ServiciosUrgentes.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="MasterPage\PaginaPrincipal.Master" />
+    <Content Include="MasterPage\MasterTecnico.Master" />
     <None Include="packages.config" />
     <Content Include="RECURSOS\fonts\Roboto\Roboto-Black.ttf" />
     <Content Include="RECURSOS\fonts\Roboto\Roboto-BlackItalic.ttf" />
